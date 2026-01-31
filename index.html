@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Vertical Flow Viewer</title>
+  <style>
+    :root {
+      --bg-color: #f4f4f9;
+      --paper-color: #ffffff;
+      --text-color: #333333;
+      --underscore-color: #999999;
+    }
+
+    body {
+      font-family: sans-serif;
+      background-color: var(--bg-color);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    #fileInput {
+      color: white;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    /* The single unified page container */
+    #content-area {
+      background: var(--paper-color);
+      width: 100%;
+      max-width: 900px;
+      padding: 50px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 2px;
+      min-height: 90vh;
+    }
+
+    /* Every line is a block element that stacks naturally */
+    .line {
+      display: block;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 18px;
+      white-space: pre;
+      /* Keeps the spacing consistent */
+      line-height: 1.4;
+      /* Improves readability for stacked lines */
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+      text-align: left;
+    }
+
+    /* Visual distinction for multi-underscores */
+    .multi-u {
+      color: var(--underscore-color);
+    }
+
+    .placeholder {
+      text-align: center;
+      color: #888;
+      margin-top: 100px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div style="font-weight: bold;">Compressor</div>
+    <input type="file" id="fileInput" accept=".json">
+  </header>
+
+  <main>
+    <div id="content-area">
+      <div class="placeholder">Select a .json file</div>
+    </div>
+  </main>
+
+  <script>
+    const fileInput = document.getElementById('fileInput');
+    const container = document.getElementById('content-area');
+
+    fileInput.addEventListener('change', function (e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function (event) {
+        try {
+          const data = JSON.parse(event.target.result);
+          renderLines(data);
+        } catch (err) {
+          alert("JSON Error: " + err.message);
+        }
+      };
+      reader.readAsText(file);
+    });
+
+    function renderLines(data) {
+      container.innerHTML = '';
+
+      // 1. Sort lines by Page and then by Y to ensure logical reading order
+      const sortedLines = Object.values(data.lines).sort((a, b) => {
+        if (a.page !== b.page) return a.page - b.page;
+        return a.y - b.y;
+      });
+
+      // 2. Process and append each line
+      sortedLines.forEach(lineObj => {
+        const lineDiv = document.createElement('div');
+        lineDiv.className = 'line';
+
+        // Apply underscore rules: 
+        // - match.length 1 -> space
+        // - match.length > 1 -> underscores
+        lineDiv.innerHTML = processText(lineObj.line);
+
+        container.appendChild(lineDiv);
+      });
+    }
+
+    function processText(text) {
+      // Regex finds all sequences of underscores
+      return text.replace(/_+/g, (match) => {
+        if (match.length === 1) {
+          return ' '; // Single underscore becomes a space
+        } else {
+          // Return underscores wrapped in a span for the grey color
+          return `<span class="multi-u">${match}</span>`;
+        }
+      });
+    }
+  </script>
+
+</body>
+
+</html>
