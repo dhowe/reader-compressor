@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JSON Vertical Flow Viewer</title>
+  <title>Reader Compression</title>
   <style>
     :root {
       --bg-color: #f4f4f9;
@@ -66,6 +66,7 @@
       margin: 0;
       padding: 0;
       text-align: left;
+      text-decoration: none;
     }
 
     /* Visual distinction for multi-underscores */
@@ -79,12 +80,13 @@
       margin-top: 100px;
     }
   </style>
+  <script src="data/default-data.js"></script>
 </head>
 
 <body>
 
   <header>
-    <div style="font-weight: bold;">Compressor</div>
+    <div style="font-weight: bold;">Reader Compressor</div>
     <input type="file" id="fileInput" accept=".json">
   </header>
 
@@ -93,10 +95,20 @@
       <div class="placeholder">Select a .json file</div>
     </div>
   </main>
+  
 
   <script>
     const fileInput = document.getElementById('fileInput');
     const container = document.getElementById('content-area');
+
+    window.addEventListener('DOMContentLoaded', () => {
+      // Check if the variable from default-data.js exists
+      if (typeof data !== 'undefined') {
+        renderLines(data);
+      } else {
+        console.error("default-data.js 'data' not found");
+      }
+    });
 
     fileInput.addEventListener('change', function (e) {
       const file = e.target.files[0];
@@ -108,6 +120,7 @@
           const data = JSON.parse(event.target.result);
           renderLines(data);
         } catch (err) {
+          s
           alert("JSON Error: " + err.message);
         }
       };
@@ -139,14 +152,7 @@
 
     function processText(text) {
       // Regex finds all sequences of underscores
-      return text.replace(/_+/g, (match) => {
-        if (match.length === 1) {
-          return ' '; // Single underscore becomes a space
-        } else {
-          // Return underscores wrapped in a span for the grey color
-          return `<span class="multi-u">${match}</span>`;
-        }
-      });
+      return text.replaceAll(/_/g, '-');
     }
   </script>
 
