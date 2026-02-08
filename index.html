@@ -3,205 +3,381 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Compressure</title>
-  <!-- Load the external data files -->
-  <script src="data/default-data.js"></script>
-  <script src="data/fills-1769884381935.js"></script>
+  <title>readers codec viewer</title>
+
+  <!-- Data Source Script Tag -->
+  <script src="data/completions/PerigramReader.1770580987150.js"></script>
 
   <style>
-    :root {
-      --bg-color: #f4f4f9;
-      --paper-color: #ffffff;
-      --text-color: #333333;
-      --underscore-color: #999999;
-      --hover-color: #0056b3;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
     body {
-      font-family: sans-serif;
-      background-color: var(--bg-color);
+      font-family: 'IBM Plex Mono', monospace;
+      background-color: #ffffff;
       margin: 0;
       padding: 0;
+      color: #000000;
+      overflow: hidden;
     }
-/* 
-    header {
-      background: #222;
-      color: #fff;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    } */
 
-    header {
-      background: #222;
+    /* --- Top Left Header --- */
+    #header-info {
+      position: fixed;
+      top: 15px;
+      left: 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      z-index: 1100;
+      background: white;
+      padding: 5px 12px;
+      border: 1px solid #eee;
+      border-radius: 4px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    #completion-selector {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+      border: 1px solid #000;
+      padding: 2px 5px;
+      cursor: pointer;
+    }
+
+    .view-toggle {
+      font-size: 11px;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+      user-select: none;
+      font-weight: bold;
+      border-left: 1px solid #ddd;
+      padding-left: 15px;
+    }
+
+    #meta-toggle {
+      width: 28px;
+      height: 28px;
+      background: #000;
       color: #fff;
-      padding: 1rem 2rem;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 16px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* --- Metadata Overlay --- */
+    #metadata-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(1px);
+      z-index: 1050;
+      overflow-y: auto;
+    }
+
+    .metadata-content {
+      position: absolute;
+      top: 65px;
+      left: 20px;
+      width: 550px;
+      max-width: 90vw;
+      border: 2px solid #000;
+      padding: 30px;
+      background: #fff;
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .close-overlay-internal {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      color: #888;
+    }
+
+    /* --- Grid Layout --- */
+    main {
+      height: 100vh;
+      overflow-y: auto;
+      padding: 80px 20px 40px 20px;
+      box-sizing: border-box;
+    }
+
+    .row-wrapper {
+      display: grid;
+      grid-template-columns: 60px 1fr 1fr 1fr;
+      width: 100%;
+      align-items: stretch;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .cell {
+      font-size: 13px;
+      white-space: pre;
+      line-height: 2.2;
+      padding: 0 15px;
+      overflow: hidden;
+    }
+
+    .cell-no {
+      text-align: right;
+      color: #ccc;
+      padding-right: 20px;
+      border-right: 1px solid #f0f0f0;
+    }
+
+    .cell-fills {
       display: flex;
       justify-content: flex-start;
-      /* Changed from space-between */
-      align-items: center;
-      gap: 20px;
-      /* Adds space between the title, input, and button */
-      position: sticky;
-      top: 0;
-      z-index: 100;
+      align-items: baseline;
     }
 
-    #fileInput {
-      color: white;
+    .highlight-box {
+      display: inline-flex;
+      align-items: baseline;
+      padding-right: 1ch;
+      white-space: pre;
     }
 
-    main {
-      display: flex;
-      justify-content: center;
-      padding: 2rem;
+    .text-content {
+      white-space: pre;
     }
 
-    #content-area {
-      background: var(--paper-color);
-      width: 100%;
-      max-width: 900px;
-      padding: 50px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-      border-radius: 2px;
-      min-height: 90vh;
+    /* Markup Styles */
+    u {
+      text-decoration: underline;
+      text-underline-offset: 4px;
     }
 
-    .line {
-      display: block;
-      font-family: "Courier New", Courier, monospace;
-      font-size: 18px;
-      white-space: pre-wrap;
-      line-height: 1.6;
-      color: var(--text-color);
-      margin: 0;
-      padding: 2px 5px;
+    s {
+      text-decoration: line-through;
+      color: #000;
+    }
+
+    .bg-red {
+      background-color: rgba(255, 0, 0, 0.08) !important;
+    }
+
+    .bg-green {
+      background-color: rgba(144, 238, 144, 0.4) !important;
+    }
+
+    .diff-tag {
+      font-weight: bold;
+      color: #d00;
+      font-size: 11px;
+      margin-right: 10px;
+      min-width: 40px;
       text-align: left;
-      transition: background-color 0.2s;
-      border-radius: 3px;
     }
 
-    .line:hover {
-      background-color: #f0f7ff;
-      color: var(--hover-color);
-      cursor: pointer;
+    /* --- CLEAN VIEW OVERRIDES --- */
+    /* Hide Side Columns and Line Numbers */
+    body.clean-mode .cell-no,
+    body.clean-mode .cell-layout,
+    body.clean-mode .cell-lines {
+      display: none;
     }
 
-    .line.wrong:hover {
-      background-color: #f0aaaa;
-      color: var(--hover-color);
-      cursor: pointer;
+    /* Collapse Grid to single column */
+    body.clean-mode .row-wrapper {
+      grid-template-columns: 1fr;
+      border-bottom: none;
     }
 
-    .placeholder {
-      text-align: center;
-      color: #888;
-      margin-top: 100px;
+    /* Remove Highlighting and padding-right */
+    body.clean-mode .highlight-box {
+      background-color: transparent !important;
+      padding-right: 0;
+    }
+
+    /* Remove Underlines */
+    body.clean-mode u {
+      text-decoration: none !important;
+    }
+
+    /* Hide Difference Numbers (num) */
+    body.clean-mode .diff-tag {
+      display: none !important;
+    }
+
+    /* Adjust page padding for readability in clean mode */
+    body.clean-mode main {
+      padding-left: 10%;
     }
   </style>
 </head>
 
 <body>
 
-  <header>
-    <!-- <input type="file" id="fileInput" accept=".json"> -->
-    <button id="toggleBtn" style="cursor:pointer; padding: 2px 2px;">Invert</button>
-  </header>
+  <div id="header-info">
+    <select id="completion-selector"></select>
 
-  <main>
-    <div id="content-area">
-      <div class="placeholder">Select a .json file or wait for default data</div>
+    <label class="view-toggle">
+      <input type="checkbox" id="clean-view-checkbox"> Clean View
+    </label>
+
+    <button id="meta-toggle">?</button>
+  </div>
+
+  <div id="metadata-overlay">
+    <div class="metadata-content">
+      <button class="close-overlay-internal" id="meta-close-x">✕</button>
+      <div id="meta-body"></div>
     </div>
-  </main>
+  </div>
+
+  <main id="unified-container"></main>
 
   <script>
-    const fileInput = document.getElementById('fileInput');
-    const container = document.getElementById('content-area');
+    window.addEventListener('load', () => {
+      const container = document.getElementById('unified-container');
+      const metaOverlay = document.getElementById('metadata-overlay');
+      const metaBody = document.getElementById('meta-body');
+      const metaToggle = document.getElementById('meta-toggle');
+      const metaCloseX = document.getElementById('meta-close-x');
+      const selector = document.getElementById('completion-selector');
+      const cleanToggle = document.getElementById('clean-view-checkbox');
 
-    let isReversed = false;
+      if (typeof data === 'undefined' || !data.completions) return;
 
-    document.getElementById('toggleBtn').addEventListener('click', () => {
-      isReversed = !isReversed;
-      // Re-render based on current data
-      if (typeof data !== 'undefined') renderLines(data);
-    });
+      // Populate Dropdown
+      data.completions.forEach((comp, idx) => {
+        const option = document.createElement('option');
+        option.value = idx;
+        option.textContent = comp.model.name;
+        selector.appendChild(option);
+      });
 
-    window.addEventListener('DOMContentLoaded', () => {
-      // Check if 'data' (from default-data.js) exists
-      if (typeof data !== 'undefined') {
-        renderLines(data);
+      function updateView(index) {
+        const completion = data.completions[index];
+        const modelInfo = completion.model;
+
+        const dateStr = new Date(parseInt(modelInfo.timestamp)).toLocaleString();
+        metaBody.innerHTML = `
+          <h1 style="margin-top:0">Reader Codec Metadata</h1>
+          <div class="meta-grid">
+            <div class="meta-label">Model</div><div class="meta-value">${modelInfo.name}</div>
+            <div class="meta-label">Options</div><div class="meta-value">${modelInfo.options}</div>
+            <div class="meta-label">Source</div><div class="meta-value">${modelInfo.url}</div>
+            <div class="meta-label">Date</div><div class="meta-value">${dateStr}</div>
+            <div class="meta-label">Notes</div><div class="meta-value">${modelInfo.notes || 'N/A'}</div>
+          </div>
+          <div class="prompt-block"><strong>Prompt:</strong><br>${modelInfo.prompt}</div>
+        `;
+
+        container.innerHTML = '';
+        const masterLayout = data.layout;
+        const masterFills = completion.fills;
+        const masterOriginal = data.original;
+
+        masterLayout.forEach((layoutRaw, i) => {
+          const fillStr = masterFills[i] || "";
+          const originalStr = masterOriginal[i] || "";
+
+          const rowWrapper = document.createElement('div');
+          rowWrapper.className = 'row-wrapper';
+
+          const cellNo = document.createElement('div');
+          cellNo.className = 'cell cell-no';
+          cellNo.textContent = i;
+
+          const cellLayout = document.createElement('div');
+          cellLayout.className = 'cell cell-layout';
+          cellLayout.innerHTML = processLayoutStrikethrough(layoutRaw, fillStr);
+
+          const cellFills = document.createElement('div');
+          cellFills.className = 'cell cell-fills';
+          const highlightBox = document.createElement('div');
+          highlightBox.className = 'highlight-box';
+
+          let fillTextHTML = applyUnderlines(fillStr, layoutRaw);
+          let diffHTML = "";
+
+          if (fillStr === originalStr) highlightBox.classList.add('bg-green');
+          if (fillStr.length !== layoutRaw.length) {
+            highlightBox.classList.add('bg-red');
+            const diff = fillStr.length - layoutRaw.length;
+            const sign = diff > 0 ? "+" : "";
+            diffHTML = `<span class="diff-tag">(${sign}${diff})</span>`;
+          }
+
+          highlightBox.innerHTML = `${diffHTML}<span class="text-content">${fillTextHTML}</span>`;
+          cellFills.appendChild(highlightBox);
+
+          const cellLines = document.createElement('div');
+          cellLines.className = 'cell cell-lines';
+          cellLines.innerHTML = applyUnderlines(originalStr, layoutRaw);
+
+          rowWrapper.appendChild(cellNo);
+          rowWrapper.appendChild(cellLayout);
+          rowWrapper.appendChild(cellFills);
+          rowWrapper.appendChild(cellLines);
+          container.appendChild(rowWrapper);
+        });
       }
-    });
 
-    fileInput.addEventListener('change', function (e) {
-      const file = e.target.files[0];
-      if (!file) return;
+      selector.addEventListener('change', (e) => updateView(e.target.value));
 
-      const reader = new FileReader();
-      reader.onload = function (event) {
-        try {
-          const jsonData = JSON.parse(event.target.result);
-          renderLines(jsonData);
-        } catch (err) {
-          alert("JSON Error: " + err.message);
-        }
-      };
-      reader.readAsText(file);
-    });
-
-    function renderLines(jsonData) {
-      container.innerHTML = '';
-
-      // Sort lines to ensure they match the index of the 'fills' array
-      const sortedLines = Object.values(jsonData.lines).sort((a, b) => {
-        if (a.page !== b.page) return a.page - b.page;
-        return a.y - b.y;
+      cleanToggle.addEventListener('change', (e) => {
+        if (e.target.checked) document.body.classList.add('clean-mode');
+        else document.body.classList.remove('clean-mode');
       });
 
-      if (fills.length !== sortedLines.length) throw Error('bad fills');
+      function toggleOverlay() {
+        const isOpen = metaOverlay.style.display === 'block';
+        metaOverlay.style.display = isOpen ? 'none' : 'block';
+        metaToggle.innerText = isOpen ? '?' : '✕';
+      }
 
-      sortedLines.forEach((lineObj, index) => {
-        const lineDiv = document.createElement('div');
-        lineDiv.className = 'line';
+      metaToggle.addEventListener('click', toggleOverlay);
+      metaCloseX.addEventListener('click', toggleOverlay);
 
-        const fragmentedText = processText(lineObj.line).trim();
-        const filledText = (typeof fills !== 'undefined' && fills[index]) ? fills[index].trim() : fragmentedText;
+      updateView(0);
+    });
 
-        // Set initial text based on toggle state
-        lineDiv.innerText = isReversed ? filledText : fragmentedText;
-
-        //console.log(index, fragmentedText, filledText);
-
-        // first remove existing wrong class
-        lineDiv.classList.remove('wrong');
-        if (fragmentedText.length !== filledText.length) {
-          console.log(index, fragmentedText, fragmentedText.length, filledText, filledText.length);
-          lineDiv.classList.add('wrong');
-        }
-
-        lineDiv.addEventListener('mouseenter', () => {
-          lineDiv.innerText = isReversed ? fragmentedText : filledText;
-        });
-
-        lineDiv.addEventListener('mouseleave', () => {
-          lineDiv.innerText = isReversed ? filledText : fragmentedText;
-        });
-
-        container.appendChild(lineDiv);
-      });
+    function processLayoutStrikethrough(layoutStr, fillsStr) {
+      const wordRegex = /([^ _]+)/g;
+      let lastIdx = 0, html = "", match;
+      while ((match = wordRegex.exec(layoutStr)) !== null) {
+        html += layoutStr.slice(lastIdx, match.index);
+        const word = match[0];
+        if (!fillsStr.includes(word)) html += `<s>${word}</s>`;
+        else html += word;
+        lastIdx = wordRegex.lastIndex;
+      }
+      html += layoutStr.slice(lastIdx);
+      return html;
     }
 
-    function processText(text) {
-      // Replaces underscores with dashes for the "masked" view
-      return text.replaceAll(/_/g, '-');
+    function applyUnderlines(text, mask) {
+      let html = "";
+      for (let j = 0; j < text.length; j++) {
+        const char = text[j];
+        const maskChar = mask[j] || " ";
+        if (maskChar === '_') html += `<u>${char}</u>`;
+        else html += char;
+      }
+      return html;
     }
   </script>
-
 </body>
 
 </html>

@@ -1,0 +1,3310 @@
+{
+  "lines": {
+    "0.0": {
+      "words": [
+        {
+          "word": "the",
+          "index": 0,
+          "visitOrder": 0
+        },
+        {
+          "word": "tongue",
+          "index": 4,
+          "visitOrder": 1
+        },
+        {
+          "word": "gets",
+          "index": 11,
+          "visitOrder": 2
+        },
+        {
+          "word": "clogged",
+          "index": 16,
+          "visitOrder": 3
+        }
+      ],
+      "line": "the tongue gets clogged _____________",
+      "page": 0,
+      "length": 37
+    },
+    "0.1": {
+      "words": [
+        {
+          "word": "one",
+          "index": 20,
+          "visitOrder": 4
+        },
+        {
+          "word": "remedy",
+          "index": 24,
+          "visitOrder": 5
+        },
+        {
+          "word": "then",
+          "index": 31,
+          "visitOrder": 6
+        },
+        {
+          "word": "pull",
+          "index": 36,
+          "visitOrder": 7
+        }
+      ],
+      "line": "___________________ one remedy then pull ",
+      "page": 0,
+      "length": 40
+    },
+    "0.2": {
+      "words": [
+        {
+          "word": "or",
+          "index": 34,
+          "visitOrder": 8
+        }
+      ],
+      "line": "_________________________________ or ",
+      "page": 0,
+      "length": 36
+    },
+    "0.3": {
+      "words": [
+        {
+          "word": "and",
+          "index": 34,
+          "visitOrder": 9
+        },
+        {
+          "word": "and",
+          "index": 34,
+          "visitOrder": 11
+        }
+      ],
+      "line": "_________________________________ and ",
+      "page": 0,
+      "length": 37
+    },
+    "0.4": {
+      "words": [
+        {
+          "word": "vistas",
+          "index": 30,
+          "visitOrder": 10
+        },
+        {
+          "word": "question",
+          "index": 0,
+          "visitOrder": 12
+        },
+        {
+          "word": "is",
+          "index": 9,
+          "visitOrder": 13
+        },
+        {
+          "word": "it",
+          "index": 12,
+          "visitOrder": 14
+        }
+      ],
+      "line": "question is it ______________ vistas ",
+      "page": 0,
+      "length": 36
+    },
+    "0.5": {
+      "words": [
+        {
+          "word": "with",
+          "index": 14,
+          "visitOrder": 15
+        },
+        {
+          "word": "that",
+          "index": 19,
+          "visitOrder": 16
+        }
+      ],
+      "line": "_____________ with that ",
+      "page": 0,
+      "length": 23
+    },
+    "0.6": {
+      "words": [
+        {
+          "word": "I",
+          "index": 0,
+          "visitOrder": 17
+        }
+      ],
+      "line": "I _____________________________________",
+      "page": 0,
+      "length": 39
+    },
+    "0.7": {
+      "words": [
+        {
+          "word": "too",
+          "index": 0,
+          "visitOrder": 18
+        }
+      ],
+      "line": "too ___________________________________",
+      "page": 0,
+      "length": 39
+    },
+    "0.8": {
+      "words": [
+        {
+          "word": "moment",
+          "index": 0,
+          "visitOrder": 19
+        },
+        {
+          "word": "with",
+          "index": 7,
+          "visitOrder": 20
+        }
+      ],
+      "line": "moment with ____________________",
+      "page": 0,
+      "length": 32
+    },
+    "0.9": {
+      "words": [
+        {
+          "word": "would",
+          "index": 10,
+          "visitOrder": 21
+        }
+      ],
+      "line": "_________ would ______________________",
+      "page": 0,
+      "length": 38
+    },
+    "0.10": {
+      "words": [
+        {
+          "word": "they",
+          "index": 13,
+          "visitOrder": 22
+        },
+        {
+          "word": "are",
+          "index": 18,
+          "visitOrder": 23
+        }
+      ],
+      "line": "____________ they are ____________",
+      "page": 0,
+      "length": 34
+    },
+    "0.11": {
+      "words": [
+        {
+          "word": "tongue",
+          "index": 20,
+          "visitOrder": 24
+        }
+      ],
+      "line": "___________________ tongue _________",
+      "page": 0,
+      "length": 36
+    },
+    "0.12": {
+      "words": [
+        {
+          "word": "at",
+          "index": 25,
+          "visitOrder": 25
+        },
+        {
+          "word": "all",
+          "index": 28,
+          "visitOrder": 26
+        },
+        {
+          "word": "this",
+          "index": 32,
+          "visitOrder": 29
+        }
+      ],
+      "line": "________________________ at all this ",
+      "page": 0,
+      "length": 36
+    },
+    "0.13": {
+      "words": [
+        {
+          "word": "see",
+          "index": 29,
+          "visitOrder": 27
+        },
+        {
+          "word": "what",
+          "index": 33,
+          "visitOrder": 28
+        },
+        {
+          "word": "what",
+          "index": 33,
+          "visitOrder": 30
+        },
+        {
+          "word": "always",
+          "index": 14,
+          "visitOrder": 35
+        }
+      ],
+      "line": "_____________ always _______ see what ",
+      "page": 0,
+      "length": 37
+    },
+    "0.14": {
+      "words": [
+        {
+          "word": "the",
+          "index": 0,
+          "visitOrder": 31
+        },
+        {
+          "word": "hands",
+          "index": 4,
+          "visitOrder": 32
+        },
+        {
+          "word": "are",
+          "index": 10,
+          "visitOrder": 33
+        },
+        {
+          "word": "up",
+          "index": 14,
+          "visitOrder": 34
+        },
+        {
+          "word": "well",
+          "index": 20,
+          "visitOrder": 36
+        },
+        {
+          "word": "the",
+          "index": 25,
+          "visitOrder": 37
+        },
+        {
+          "word": "left",
+          "index": 29,
+          "visitOrder": 38
+        },
+        {
+          "word": "as",
+          "index": 34,
+          "visitOrder": 39
+        },
+        {
+          "word": "we",
+          "index": 37,
+          "visitOrder": 41
+        }
+      ],
+      "line": "the hands are up __ well the left as we ",
+      "page": 0,
+      "length": 39
+    },
+    "0.15": {
+      "words": [
+        {
+          "word": "and",
+          "index": 34,
+          "visitOrder": 40
+        },
+        {
+          "word": "and",
+          "index": 34,
+          "visitOrder": 42
+        }
+      ],
+      "line": "_________________________________ and ",
+      "page": 0,
+      "length": 37
+    },
+    "0.16": {
+      "words": [
+        {
+          "word": "the",
+          "index": 0,
+          "visitOrder": 43
+        },
+        {
+          "word": "right",
+          "index": 4,
+          "visitOrder": 44
+        }
+      ],
+      "line": "the right ",
+      "page": 0,
+      "length": 9
+    },
+    "0.17": {
+      "words": [
+        {
+          "word": "the",
+          "index": 0,
+          "visitOrder": 45
+        },
+        {
+          "word": "right",
+          "index": 4,
+          "visitOrder": 46
+        }
+      ],
+      "line": "the right ____________________________",
+      "page": 0,
+      "length": 38
+    },
+    "0.18": {
+      "words": [
+        {
+          "word": "others",
+          "index": 4,
+          "visitOrder": 47
+        },
+        {
+          "word": "at",
+          "index": 11,
+          "visitOrder": 48
+        },
+        {
+          "word": "the",
+          "index": 14,
+          "visitOrder": 49
+        }
+      ],
+      "line": "___ others at the _____________________",
+      "page": 0,
+      "length": 39
+    },
+    "0.19": {
+      "words": [
+        {
+          "word": "on",
+          "index": 15,
+          "visitOrder": 50
+        }
+      ],
+      "line": "______________ on ____________________",
+      "page": 0,
+      "length": 38
+    },
+    "0.20": {
+      "words": [
+        {
+          "word": "stretch",
+          "index": 16,
+          "visitOrder": 51
+        },
+        {
+          "word": "axis",
+          "index": 31,
+          "visitOrder": 56
+        }
+      ],
+      "line": "_______________ stretch ______ axis __",
+      "page": 0,
+      "length": 38
+    },
+    "0.21": {
+      "words": [
+        {
+          "word": "as",
+          "index": 22,
+          "visitOrder": 52
+        },
+        {
+          "word": "I",
+          "index": 25,
+          "visitOrder": 53
+        },
+        {
+          "word": "hear",
+          "index": 27,
+          "visitOrder": 54
+        },
+        {
+          "word": "it",
+          "index": 32,
+          "visitOrder": 55
+        },
+        {
+          "word": "it",
+          "index": 32,
+          "visitOrder": 57
+        }
+      ],
+      "line": "_____________________ as I hear it ",
+      "page": 0,
+      "length": 34
+    },
+    "1.0": {
+      "words": [
+        {
+          "word": "opening",
+          "index": 0,
+          "visitOrder": 58
+        },
+        {
+          "word": "and",
+          "index": 8,
+          "visitOrder": 60
+        },
+        {
+          "word": "closing",
+          "index": 12,
+          "visitOrder": 61
+        },
+        {
+          "word": "the",
+          "index": 23,
+          "visitOrder": 63
+        }
+      ],
+      "line": "opening and closing __ the ___________",
+      "page": 1,
+      "length": 38
+    },
+    "1.1": {
+      "words": [
+        {
+          "word": "closing",
+          "index": 4,
+          "visitOrder": 59
+        },
+        {
+          "word": "another",
+          "index": 17,
+          "visitOrder": 62
+        },
+        {
+          "word": "of",
+          "index": 25,
+          "visitOrder": 64
+        },
+        {
+          "word": "my",
+          "index": 28,
+          "visitOrder": 65
+        },
+        {
+          "word": "resources",
+          "index": 31,
+          "visitOrder": 66
+        }
+      ],
+      "line": "___ closing ____ another of my resources ",
+      "page": 1,
+      "length": 40
+    },
+    "1.2": {
+      "words": [
+        {
+          "word": "it",
+          "index": 0,
+          "visitOrder": 67
+        },
+        {
+          "word": "helps",
+          "index": 3,
+          "visitOrder": 68
+        },
+        {
+          "word": "me",
+          "index": 9,
+          "visitOrder": 69
+        }
+      ],
+      "line": "it helps me ",
+      "page": 1,
+      "length": 11
+    },
+    "1.3": {
+      "words": [
+        {
+          "word": "be",
+          "index": 9,
+          "visitOrder": 70
+        }
+      ],
+      "line": "________ be ____________________________",
+      "page": 1,
+      "length": 40
+    },
+    "1.4": {
+      "words": [
+        {
+          "word": "some",
+          "index": 11,
+          "visitOrder": 71
+        }
+      ],
+      "line": "__________ some _______________________",
+      "page": 1,
+      "length": 39
+    },
+    "1.5": {
+      "words": [
+        {
+          "word": "its",
+          "index": 12,
+          "visitOrder": 72
+        },
+        {
+          "word": "thumb",
+          "index": 16,
+          "visitOrder": 73
+        },
+        {
+          "word": "something",
+          "index": 22,
+          "visitOrder": 74
+        },
+        {
+          "word": "wrong",
+          "index": 32,
+          "visitOrder": 75
+        }
+      ],
+      "line": "___________ its thumb something wrong ",
+      "page": 1,
+      "length": 37
+    },
+    "1.6": {
+      "words": [
+        {
+          "word": "there",
+          "index": 0,
+          "visitOrder": 76
+        },
+        {
+          "word": "it",
+          "index": 6,
+          "visitOrder": 77
+        }
+      ],
+      "line": "there it __________________________",
+      "page": 1,
+      "length": 35
+    },
+    "1.7": {
+      "words": [
+        {
+          "word": "my",
+          "index": 6,
+          "visitOrder": 78
+        },
+        {
+          "word": "eyes",
+          "index": 9,
+          "visitOrder": 79
+        }
+      ],
+      "line": "_____ my eyes _________________________",
+      "page": 1,
+      "length": 39
+    },
+    "1.8": {
+      "words": [
+        {
+          "word": "its",
+          "index": 10,
+          "visitOrder": 80
+        }
+      ],
+      "line": "_________ its _________________________",
+      "page": 1,
+      "length": 39
+    },
+    "1.9": {
+      "words": [
+        {
+          "word": "ends",
+          "index": 13,
+          "visitOrder": 81
+        }
+      ],
+      "line": "____________ ends _____________________",
+      "page": 1,
+      "length": 39
+    },
+    "1.10": {
+      "words": [
+        {
+          "word": "horizontal",
+          "index": 7,
+          "visitOrder": 82
+        },
+        {
+          "word": "hoists",
+          "index": 18,
+          "visitOrder": 83
+        },
+        {
+          "word": "it",
+          "index": 25,
+          "visitOrder": 84
+        },
+        {
+          "word": "moves",
+          "index": 28,
+          "visitOrder": 85
+        }
+      ],
+      "line": "______ horizontal hoists it moves ____",
+      "page": 1,
+      "length": 38
+    },
+    "1.11": {
+      "words": [
+        {
+          "word": "piecemeal",
+          "index": 28,
+          "visitOrder": 86
+        },
+        {
+          "word": "it",
+          "index": 38,
+          "visitOrder": 87
+        }
+      ],
+      "line": "___________________________ piecemeal it ",
+      "page": 1,
+      "length": 40
+    },
+    "1.12": {
+      "words": [
+        {
+          "word": "helps",
+          "index": 0,
+          "visitOrder": 88
+        },
+        {
+          "word": "me",
+          "index": 6,
+          "visitOrder": 89
+        }
+      ],
+      "line": "helps me ",
+      "page": 1,
+      "length": 8
+    },
+    "1.13": {
+      "words": [
+        {
+          "word": "and",
+          "index": 0,
+          "visitOrder": 90
+        },
+        {
+          "word": "the",
+          "index": 4,
+          "visitOrder": 91
+        },
+        {
+          "word": "legs",
+          "index": 8,
+          "visitOrder": 92
+        },
+        {
+          "word": "and",
+          "index": 13,
+          "visitOrder": 93
+        },
+        {
+          "word": "the",
+          "index": 17,
+          "visitOrder": 94
+        }
+      ],
+      "line": "and the legs and the _____________",
+      "page": 1,
+      "length": 34
+    },
+    "1.14": {
+      "words": [
+        {
+          "word": "since",
+          "index": 19,
+          "visitOrder": 95
+        }
+      ],
+      "line": "__________________ since ________",
+      "page": 1,
+      "length": 33
+    },
+    "1.15": {
+      "words": [
+        {
+          "word": "there",
+          "index": 23,
+          "visitOrder": 96
+        },
+        {
+          "word": "in",
+          "index": 29,
+          "visitOrder": 98
+        }
+      ],
+      "line": "______________________ there in _______",
+      "page": 1,
+      "length": 39
+    },
+    "1.16": {
+      "words": [
+        {
+          "word": "me",
+          "index": 28,
+          "visitOrder": 97
+        },
+        {
+          "word": "me",
+          "index": 28,
+          "visitOrder": 99
+        }
+      ],
+      "line": "___________________________ me ",
+      "page": 1,
+      "length": 30
+    },
+    "1.17": {
+      "words": [
+        {
+          "word": "I",
+          "index": 0,
+          "visitOrder": 100
+        },
+        {
+          "word": "crown",
+          "index": 34,
+          "visitOrder": 107
+        },
+        {
+          "word": "crown",
+          "index": 34,
+          "visitOrder": 109
+        }
+      ],
+      "line": "I _______________________________ crown ",
+      "page": 1,
+      "length": 39
+    },
+    "1.18": {
+      "words": [
+        {
+          "word": "all",
+          "index": 0,
+          "visitOrder": 101
+        },
+        {
+          "word": "glorious",
+          "index": 4,
+          "visitOrder": 102
+        },
+        {
+          "word": "weather",
+          "index": 13,
+          "visitOrder": 103
+        },
+        {
+          "word": "egg-blue",
+          "index": 21,
+          "visitOrder": 104
+        },
+        {
+          "word": "sky",
+          "index": 30,
+          "visitOrder": 105
+        },
+        {
+          "word": "and",
+          "index": 34,
+          "visitOrder": 106
+        },
+        {
+          "word": "and",
+          "index": 34,
+          "visitOrder": 108
+        },
+        {
+          "word": "and",
+          "index": 34,
+          "visitOrder": 110
+        }
+      ],
+      "line": "all glorious weather egg-blue sky and ",
+      "page": 1,
+      "length": 37
+    },
+    "1.19": {
+      "words": [
+        {
+          "word": "back",
+          "index": 35,
+          "visitOrder": 111
+        },
+        {
+          "word": "my",
+          "index": 32,
+          "visitOrder": 121
+        },
+        {
+          "word": "back",
+          "index": 35,
+          "visitOrder": 122
+        }
+      ],
+      "line": "_______________________________ my back ",
+      "page": 1,
+      "length": 39
+    },
+    "1.20": {
+      "words": [
+        {
+          "word": "turned",
+          "index": 0,
+          "visitOrder": 112
+        },
+        {
+          "word": "girl",
+          "index": 21,
+          "visitOrder": 118
+        },
+        {
+          "word": "too",
+          "index": 26,
+          "visitOrder": 119
+        },
+        {
+          "word": "whom",
+          "index": 30,
+          "visitOrder": 120
+        },
+        {
+          "word": "I",
+          "index": 35,
+          "visitOrder": 123
+        },
+        {
+          "word": "I",
+          "index": 35,
+          "visitOrder": 125
+        }
+      ],
+      "line": "turned _____________ girl too whom I ",
+      "page": 1,
+      "length": 36
+    },
+    "1.21": {
+      "words": [
+        {
+          "word": "who",
+          "index": 5,
+          "visitOrder": 113
+        },
+        {
+          "word": "holds",
+          "index": 9,
+          "visitOrder": 114
+        },
+        {
+          "word": "me",
+          "index": 15,
+          "visitOrder": 115
+        },
+        {
+          "word": "by",
+          "index": 18,
+          "visitOrder": 116
+        },
+        {
+          "word": "the",
+          "index": 21,
+          "visitOrder": 117
+        },
+        {
+          "word": "arse",
+          "index": 34,
+          "visitOrder": 124
+        },
+        {
+          "word": "arse",
+          "index": 34,
+          "visitOrder": 126
+        },
+        {
+          "word": "I",
+          "index": 39,
+          "visitOrder": 127
+        }
+      ],
+      "line": "____ who holds me by the ________ arse I ",
+      "page": 1,
+      "length": 40
+    },
+    "2.0": {
+      "words": [
+        {
+          "word": "have",
+          "index": 0,
+          "visitOrder": 128
+        }
+      ],
+      "line": "have ",
+      "page": 2,
+      "length": 4
+    },
+    "2.1": {
+      "words": [
+        {
+          "word": "are",
+          "index": 3,
+          "visitOrder": 129
+        }
+      ],
+      "line": "__ are _________________________________",
+      "page": 2,
+      "length": 40
+    },
+    "2.2": {
+      "words": [
+        {
+          "word": "the",
+          "index": 5,
+          "visitOrder": 130
+        }
+      ],
+      "line": "____ the ______________________________",
+      "page": 2,
+      "length": 39
+    },
+    "2.3": {
+      "words": [
+        {
+          "word": "are",
+          "index": 8,
+          "visitOrder": 131
+        },
+        {
+          "word": "old",
+          "index": 12,
+          "visitOrder": 132
+        }
+      ],
+      "line": "_______ are old ____________________",
+      "page": 2,
+      "length": 36
+    },
+    "2.4": {
+      "words": [
+        {
+          "word": "in",
+          "index": 15,
+          "visitOrder": 133
+        },
+        {
+          "word": "April",
+          "index": 18,
+          "visitOrder": 134
+        },
+        {
+          "word": "or",
+          "index": 24,
+          "visitOrder": 135
+        }
+      ],
+      "line": "______________ in April or __________",
+      "page": 2,
+      "length": 37
+    },
+    "2.5": {
+      "words": [
+        {
+          "word": "may",
+          "index": 25,
+          "visitOrder": 136
+        },
+        {
+          "word": "believe",
+          "index": 29,
+          "visitOrder": 137
+        }
+      ],
+      "line": "________________________ may believe ",
+      "page": 2,
+      "length": 36
+    },
+    "2.6": {
+      "words": [
+        {
+          "word": "them",
+          "index": 0,
+          "visitOrder": 138
+        },
+        {
+          "word": "white",
+          "index": 5,
+          "visitOrder": 139
+        },
+        {
+          "word": "rails",
+          "index": 11,
+          "visitOrder": 140
+        }
+      ],
+      "line": "them white rails ______________________",
+      "page": 2,
+      "length": 39
+    },
+    "2.7": {
+      "words": [
+        {
+          "word": "on",
+          "index": 16,
+          "visitOrder": 141
+        },
+        {
+          "word": "a",
+          "index": 19,
+          "visitOrder": 142
+        },
+        {
+          "word": "racecourse",
+          "index": 21,
+          "visitOrder": 143
+        },
+        {
+          "word": "in",
+          "index": 32,
+          "visitOrder": 144
+        },
+        {
+          "word": "April",
+          "index": 35,
+          "visitOrder": 145
+        }
+      ],
+      "line": "_______________ on a racecourse in April ",
+      "page": 2,
+      "length": 40
+    },
+    "2.8": {
+      "words": [
+        {
+          "word": "or",
+          "index": 0,
+          "visitOrder": 146
+        },
+        {
+          "word": "in",
+          "index": 3,
+          "visitOrder": 148
+        }
+      ],
+      "line": "or in ___",
+      "page": 2,
+      "length": 9
+    },
+    "2.9": {
+      "words": [
+        {
+          "word": "heads",
+          "index": 0,
+          "visitOrder": 147
+        },
+        {
+          "word": "heads",
+          "index": 0,
+          "visitOrder": 149
+        }
+      ],
+      "line": "heads ________________________________",
+      "page": 2,
+      "length": 38
+    },
+    "2.10": {
+      "words": [
+        {
+          "word": "imagine",
+          "index": 0,
+          "visitOrder": 150
+        },
+        {
+          "word": "our",
+          "index": 8,
+          "visitOrder": 151
+        }
+      ],
+      "line": "imagine our ____________________________",
+      "page": 2,
+      "length": 40
+    },
+    "2.11": {
+      "words": [
+        {
+          "word": "statues",
+          "index": 9,
+          "visitOrder": 152
+        },
+        {
+          "word": "save",
+          "index": 17,
+          "visitOrder": 153
+        },
+        {
+          "word": "only",
+          "index": 22,
+          "visitOrder": 154
+        },
+        {
+          "word": "the",
+          "index": 27,
+          "visitOrder": 155
+        },
+        {
+          "word": "swinging",
+          "index": 31,
+          "visitOrder": 158
+        }
+      ],
+      "line": "________ statues save only the swinging ",
+      "page": 2,
+      "length": 39
+    },
+    "2.12": {
+      "words": [
+        {
+          "word": "what",
+          "index": 30,
+          "visitOrder": 156
+        },
+        {
+          "word": "else",
+          "index": 35,
+          "visitOrder": 157
+        },
+        {
+          "word": "arms",
+          "index": 0,
+          "visitOrder": 159
+        }
+      ],
+      "line": "arms ________________________ what else ",
+      "page": 2,
+      "length": 39
+    },
+    "2.13": {
+      "words": [
+        {
+          "word": "my",
+          "index": 3,
+          "visitOrder": 160
+        }
+      ],
+      "line": "__ my ________________________________",
+      "page": 2,
+      "length": 38
+    },
+    "2.14": {
+      "words": [
+        {
+          "word": "object",
+          "index": 0,
+          "visitOrder": 161
+        },
+        {
+          "word": "and",
+          "index": 7,
+          "visitOrder": 162
+        }
+      ],
+      "line": "object and _____________________________",
+      "page": 2,
+      "length": 40
+    },
+    "2.15": {
+      "words": [
+        {
+          "word": "of",
+          "index": 10,
+          "visitOrder": 163
+        }
+      ],
+      "line": "_________ of ________________________",
+      "page": 2,
+      "length": 37
+    },
+    "2.16": {
+      "words": [
+        {
+          "word": "ash-grey",
+          "index": 10,
+          "visitOrder": 164
+        },
+        {
+          "word": "dog",
+          "index": 19,
+          "visitOrder": 165
+        },
+        {
+          "word": "of",
+          "index": 23,
+          "visitOrder": 166
+        }
+      ],
+      "line": "_________ ash-grey dog of _________",
+      "page": 2,
+      "length": 35
+    },
+    "2.17": {
+      "words": [
+        {
+          "word": "head",
+          "index": 25,
+          "visitOrder": 167
+        },
+        {
+          "word": "sunk",
+          "index": 30,
+          "visitOrder": 168
+        }
+      ],
+      "line": "________________________ head sunk ",
+      "page": 2,
+      "length": 34
+    },
+    "2.18": {
+      "words": [
+        {
+          "word": "stillness",
+          "index": 0,
+          "visitOrder": 169
+        },
+        {
+          "word": "of",
+          "index": 10,
+          "visitOrder": 170
+        }
+      ],
+      "line": "stillness of ___________",
+      "page": 2,
+      "length": 24
+    },
+    "2.19": {
+      "words": [
+        {
+          "word": "why",
+          "index": 9,
+          "visitOrder": 171
+        }
+      ],
+      "line": "________ why _________________________",
+      "page": 2,
+      "length": 38
+    },
+    "2.20": {
+      "words": [
+        {
+          "word": "and",
+          "index": 11,
+          "visitOrder": 172
+        },
+        {
+          "word": "emergence",
+          "index": 15,
+          "visitOrder": 173
+        },
+        {
+          "word": "little",
+          "index": 25,
+          "visitOrder": 174
+        },
+        {
+          "word": "by",
+          "index": 32,
+          "visitOrder": 175
+        }
+      ],
+      "line": "__________ and emergence little by ",
+      "page": 2,
+      "length": 34
+    },
+    "3.0": {
+      "words": [
+        {
+          "word": "little",
+          "index": 0,
+          "visitOrder": 176
+        },
+        {
+          "word": "of",
+          "index": 7,
+          "visitOrder": 177
+        }
+      ],
+      "line": "little of __________________________",
+      "page": 3,
+      "length": 36
+    },
+    "3.1": {
+      "words": [
+        {
+          "word": "by",
+          "index": 7,
+          "visitOrder": 178
+        },
+        {
+          "word": "little",
+          "index": 10,
+          "visitOrder": 179
+        }
+      ],
+      "line": "______ by little _____________________",
+      "page": 3,
+      "length": 38
+    },
+    "3.2": {
+      "words": [
+        {
+          "word": "bulk",
+          "index": 15,
+          "visitOrder": 180
+        },
+        {
+          "word": "closing",
+          "index": 20,
+          "visitOrder": 181
+        },
+        {
+          "word": "the",
+          "index": 28,
+          "visitOrder": 182
+        }
+      ],
+      "line": "______________ bulk closing the _____",
+      "page": 3,
+      "length": 37
+    },
+    "3.3": {
+      "words": [
+        {
+          "word": "mountain",
+          "index": 28,
+          "visitOrder": 183
+        }
+      ],
+      "line": "___________________________ mountain __",
+      "page": 3,
+      "length": 39
+    },
+    "3.4": {
+      "words": [
+        {
+          "word": "the",
+          "index": 35,
+          "visitOrder": 184
+        }
+      ],
+      "line": "__________________________________ the ",
+      "page": 3,
+      "length": 38
+    },
+    "3.5": {
+      "words": [
+        {
+          "word": "crest",
+          "index": 0,
+          "visitOrder": 185
+        }
+      ],
+      "line": "crest ",
+      "page": 3,
+      "length": 5
+    },
+    "3.6": {
+      "words": [
+        {
+          "word": "let",
+          "index": 3,
+          "visitOrder": 186
+        },
+        {
+          "word": "go",
+          "index": 7,
+          "visitOrder": 187
+        },
+        {
+          "word": "our",
+          "index": 10,
+          "visitOrder": 188
+        }
+      ],
+      "line": "__ let go our ______________________",
+      "page": 3,
+      "length": 36
+    },
+    "3.7": {
+      "words": [
+        {
+          "word": "she",
+          "index": 11,
+          "visitOrder": 189
+        }
+      ],
+      "line": "__________ she ______________________",
+      "page": 3,
+      "length": 37
+    },
+    "3.8": {
+      "words": [
+        {
+          "word": "her",
+          "index": 13,
+          "visitOrder": 190
+        }
+      ],
+      "line": "____________ her ___________________",
+      "page": 3,
+      "length": 36
+    },
+    "3.9": {
+      "words": [
+        {
+          "word": "my",
+          "index": 16,
+          "visitOrder": 191
+        }
+      ],
+      "line": "_______________ my ____________________",
+      "page": 3,
+      "length": 39
+    },
+    "3.10": {
+      "words": [
+        {
+          "word": "grey",
+          "index": 14,
+          "visitOrder": 192
+        },
+        {
+          "word": "brick",
+          "index": 19,
+          "visitOrder": 193
+        },
+        {
+          "word": "the",
+          "index": 25,
+          "visitOrder": 194
+        },
+        {
+          "word": "empty",
+          "index": 29,
+          "visitOrder": 195
+        }
+      ],
+      "line": "_____________ grey brick the empty _____",
+      "page": 3,
+      "length": 40
+    },
+    "3.11": {
+      "words": [
+        {
+          "word": "not",
+          "index": 34,
+          "visitOrder": 196
+        }
+      ],
+      "line": "_________________________________ not ",
+      "page": 3,
+      "length": 37
+    },
+    "3.12": {
+      "words": [
+        {
+          "word": "moved",
+          "index": 0,
+          "visitOrder": 197
+        },
+        {
+          "word": "I",
+          "index": 6,
+          "visitOrder": 198
+        },
+        {
+          "word": "have",
+          "index": 8,
+          "visitOrder": 199
+        },
+        {
+          "word": "the",
+          "index": 13,
+          "visitOrder": 200
+        },
+        {
+          "word": "impression",
+          "index": 17,
+          "visitOrder": 201
+        },
+        {
+          "word": "we",
+          "index": 28,
+          "visitOrder": 202
+        },
+        {
+          "word": "are",
+          "index": 31,
+          "visitOrder": 203
+        }
+      ],
+      "line": "moved I have the impression we are ",
+      "page": 3,
+      "length": 34
+    },
+    "3.13": {
+      "words": [
+        {
+          "word": "looking",
+          "index": 0,
+          "visitOrder": 204
+        },
+        {
+          "word": "at",
+          "index": 8,
+          "visitOrder": 205
+        }
+      ],
+      "line": "looking at ____________________________",
+      "page": 3,
+      "length": 39
+    },
+    "3.14": {
+      "words": [
+        {
+          "word": "and",
+          "index": 9,
+          "visitOrder": 206
+        }
+      ],
+      "line": "________ and _____",
+      "page": 3,
+      "length": 18
+    },
+    "3.15": {
+      "words": [
+        {
+          "word": "face",
+          "index": 10,
+          "visitOrder": 207
+        },
+        {
+          "word": "the",
+          "index": 15,
+          "visitOrder": 208
+        },
+        {
+          "word": "girl",
+          "index": 19,
+          "visitOrder": 209
+        }
+      ],
+      "line": "_________ face the girl _______________",
+      "page": 3,
+      "length": 39
+    },
+    "3.16": {
+      "words": [
+        {
+          "word": "concerned",
+          "index": 23,
+          "visitOrder": 210
+        },
+        {
+          "word": "me",
+          "index": 33,
+          "visitOrder": 211
+        }
+      ],
+      "line": "______________________ concerned me ____",
+      "page": 3,
+      "length": 40
+    },
+    "3.17": {
+      "words": [
+        {
+          "word": "with",
+          "index": 30,
+          "visitOrder": 212
+        }
+      ],
+      "line": "_____________________________ with ",
+      "page": 3,
+      "length": 34
+    },
+    "3.18": {
+      "words": [
+        {
+          "word": "fly",
+          "index": 32,
+          "visitOrder": 213
+        }
+      ],
+      "line": "_______________________________ fly ",
+      "page": 3,
+      "length": 35
+    },
+    "3.19": {
+      "words": [
+        {
+          "word": "spindle",
+          "index": 0,
+          "visitOrder": 214
+        },
+        {
+          "word": "legs",
+          "index": 8,
+          "visitOrder": 215
+        },
+        {
+          "word": "sagging",
+          "index": 13,
+          "visitOrder": 216
+        },
+        {
+          "word": "knocking",
+          "index": 21,
+          "visitOrder": 217
+        },
+        {
+          "word": "at",
+          "index": 30,
+          "visitOrder": 218
+        },
+        {
+          "word": "the",
+          "index": 33,
+          "visitOrder": 219
+        }
+      ],
+      "line": "spindle legs sagging knocking at the ",
+      "page": 3,
+      "length": 36
+    },
+    "3.20": {
+      "words": [
+        {
+          "word": "knees",
+          "index": 0,
+          "visitOrder": 220
+        },
+        {
+          "word": "wide",
+          "index": 6,
+          "visitOrder": 221
+        },
+        {
+          "word": "astraddle",
+          "index": 11,
+          "visitOrder": 222
+        },
+        {
+          "word": "for",
+          "index": 21,
+          "visitOrder": 223
+        },
+        {
+          "word": "greater",
+          "index": 25,
+          "visitOrder": 224
+        },
+        {
+          "word": "wide",
+          "index": 6,
+          "visitOrder": 226
+        },
+        {
+          "word": "astraddle",
+          "index": 11,
+          "visitOrder": 227
+        },
+        {
+          "word": "for",
+          "index": 21,
+          "visitOrder": 228
+        },
+        {
+          "word": "greater",
+          "index": 25,
+          "visitOrder": 229
+        }
+      ],
+      "line": "knees wide astraddle for greater ",
+      "page": 3,
+      "length": 32
+    },
+    "3.21": {
+      "words": [
+        {
+          "word": "stability",
+          "index": 0,
+          "visitOrder": 225
+        },
+        {
+          "word": "stability",
+          "index": 0,
+          "visitOrder": 230
+        },
+        {
+          "word": "feet",
+          "index": 10,
+          "visitOrder": 231
+        },
+        {
+          "word": "splayed",
+          "index": 15,
+          "visitOrder": 232
+        },
+        {
+          "word": "one",
+          "index": 23,
+          "visitOrder": 233
+        },
+        {
+          "word": "hundred",
+          "index": 27,
+          "visitOrder": 234
+        },
+        {
+          "word": "and",
+          "index": 35,
+          "visitOrder": 235
+        }
+      ],
+      "line": "stability feet splayed one hundred and ",
+      "page": 3,
+      "length": 38
+    },
+    "4.0": {
+      "words": [
+        {
+          "word": "thirty",
+          "index": 0,
+          "visitOrder": 236
+        },
+        {
+          "word": "degrees",
+          "index": 7,
+          "visitOrder": 237
+        },
+        {
+          "word": "fatuous",
+          "index": 15,
+          "visitOrder": 238
+        },
+        {
+          "word": "half-smile",
+          "index": 23,
+          "visitOrder": 239
+        },
+        {
+          "word": "to",
+          "index": 34,
+          "visitOrder": 240
+        }
+      ],
+      "line": "thirty degrees fatuous half-smile to ",
+      "page": 4,
+      "length": 36
+    },
+    "4.1": {
+      "words": [
+        {
+          "word": "posterior",
+          "index": 0,
+          "visitOrder": 241
+        }
+      ],
+      "line": "posterior ____________________________",
+      "page": 4,
+      "length": 38
+    },
+    "4.2": {
+      "words": [
+        {
+          "word": "green",
+          "index": 5,
+          "visitOrder": 242
+        },
+        {
+          "word": "tweeds",
+          "index": 11,
+          "visitOrder": 243
+        },
+        {
+          "word": "yellow",
+          "index": 18,
+          "visitOrder": 244
+        },
+        {
+          "word": "boots",
+          "index": 25,
+          "visitOrder": 245
+        }
+      ],
+      "line": "____ green tweeds yellow boots _________",
+      "page": 4,
+      "length": 40
+    },
+    "4.3": {
+      "words": [
+        {
+          "word": "in",
+          "index": 28,
+          "visitOrder": 246
+        },
+        {
+          "word": "the",
+          "index": 31,
+          "visitOrder": 247
+        }
+      ],
+      "line": "___________________________ in the ",
+      "page": 4,
+      "length": 34
+    },
+    "4.4": {
+      "words": [
+        {
+          "word": "buttonhole",
+          "index": 0,
+          "visitOrder": 248
+        }
+      ],
+      "line": "buttonhole ",
+      "page": 4,
+      "length": 10
+    },
+    "4.5": {
+      "words": [
+        {
+          "word": "again",
+          "index": 0,
+          "visitOrder": 249
+        },
+        {
+          "word": "about",
+          "index": 6,
+          "visitOrder": 250
+        },
+        {
+          "word": "turn",
+          "index": 12,
+          "visitOrder": 251
+        },
+        {
+          "word": "introrse",
+          "index": 17,
+          "visitOrder": 252
+        },
+        {
+          "word": "at",
+          "index": 26,
+          "visitOrder": 253
+        },
+        {
+          "word": "ninety",
+          "index": 29,
+          "visitOrder": 254
+        }
+      ],
+      "line": "again about turn introrse at ninety ",
+      "page": 4,
+      "length": 35
+    },
+    "4.6": {
+      "words": [
+        {
+          "word": "degrees",
+          "index": 0,
+          "visitOrder": 255
+        },
+        {
+          "word": "fleeting",
+          "index": 8,
+          "visitOrder": 256
+        },
+        {
+          "word": "face",
+          "index": 17,
+          "visitOrder": 257
+        },
+        {
+          "word": "to",
+          "index": 22,
+          "visitOrder": 258
+        },
+        {
+          "word": "face",
+          "index": 25,
+          "visitOrder": 259
+        },
+        {
+          "word": "transfer",
+          "index": 30,
+          "visitOrder": 260
+        }
+      ],
+      "line": "degrees fleeting face to face transfer ",
+      "page": 4,
+      "length": 38
+    },
+    "4.7": {
+      "words": [
+        {
+          "word": "of",
+          "index": 0,
+          "visitOrder": 261
+        }
+      ],
+      "line": "of ____________________________________",
+      "page": 4,
+      "length": 39
+    },
+    "4.8": {
+      "words": [
+        {
+          "word": "arms",
+          "index": 0,
+          "visitOrder": 262
+        }
+      ],
+      "line": "arms ________________________________",
+      "page": 4,
+      "length": 37
+    },
+    "4.9": {
+      "words": [
+        {
+          "word": "suddenly",
+          "index": 0,
+          "visitOrder": 263
+        }
+      ],
+      "line": "suddenly ______________________________",
+      "page": 4,
+      "length": 39
+    },
+    "4.10": {
+      "words": [
+        {
+          "word": "swinging",
+          "index": 8,
+          "visitOrder": 264
+        },
+        {
+          "word": "the",
+          "index": 17,
+          "visitOrder": 265
+        },
+        {
+          "word": "dog",
+          "index": 21,
+          "visitOrder": 266
+        }
+      ],
+      "line": "_______ swinging the dog ____________",
+      "page": 4,
+      "length": 37
+    },
+    "4.11": {
+      "words": [
+        {
+          "word": "reference",
+          "index": 22,
+          "visitOrder": 267
+        },
+        {
+          "word": "to",
+          "index": 32,
+          "visitOrder": 268
+        }
+      ],
+      "line": "_____________________ reference to _____",
+      "page": 4,
+      "length": 40
+    },
+    "4.12": {
+      "words": [
+        {
+          "word": "instant",
+          "index": 32,
+          "visitOrder": 269
+        }
+      ],
+      "line": "_______________________________ instant ",
+      "page": 4,
+      "length": 39
+    },
+    "4.13": {
+      "words": [
+        {
+          "word": "the",
+          "index": 30,
+          "visitOrder": 270
+        },
+        {
+          "word": "less",
+          "index": 12,
+          "visitOrder": 274
+        }
+      ],
+      "line": "___________ less ____________ the ",
+      "page": 4,
+      "length": 33
+    },
+    "4.14": {
+      "words": [
+        {
+          "word": "humanities",
+          "index": 0,
+          "visitOrder": 271
+        },
+        {
+          "word": "I",
+          "index": 11,
+          "visitOrder": 272
+        },
+        {
+          "word": "had",
+          "index": 13,
+          "visitOrder": 273
+        },
+        {
+          "word": "had",
+          "index": 13,
+          "visitOrder": 275
+        },
+        {
+          "word": "if",
+          "index": 17,
+          "visitOrder": 276
+        }
+      ],
+      "line": "humanities I had if ___________________",
+      "page": 4,
+      "length": 39
+    },
+    "4.15": {
+      "words": [
+        {
+          "word": "stopping",
+          "index": 18,
+          "visitOrder": 277
+        },
+        {
+          "word": "I",
+          "index": 27,
+          "visitOrder": 278
+        },
+        {
+          "word": "shout",
+          "index": 29,
+          "visitOrder": 279
+        }
+      ],
+      "line": "_________________ stopping I shout __",
+      "page": 4,
+      "length": 37
+    },
+    "4.16": {
+      "words": [
+        {
+          "word": "your",
+          "index": 34,
+          "visitOrder": 280
+        }
+      ],
+      "line": "_________________________________ your ",
+      "page": 4,
+      "length": 38
+    },
+    "4.17": {
+      "words": [
+        {
+          "word": "throat",
+          "index": 0,
+          "visitOrder": 281
+        }
+      ],
+      "line": "throat ",
+      "page": 4,
+      "length": 6
+    },
+    "4.18": {
+      "words": [
+        {
+          "word": "black",
+          "index": 6,
+          "visitOrder": 282
+        },
+        {
+          "word": "there",
+          "index": 16,
+          "visitOrder": 285
+        },
+        {
+          "word": "we",
+          "index": 22,
+          "visitOrder": 286
+        },
+        {
+          "word": "are",
+          "index": 25,
+          "visitOrder": 287
+        }
+      ],
+      "line": "_____ black ___ there we are ________",
+      "page": 4,
+      "length": 37
+    },
+    "4.19": {
+      "words": [
+        {
+          "word": "the",
+          "index": 11,
+          "visitOrder": 283
+        },
+        {
+          "word": "dog",
+          "index": 15,
+          "visitOrder": 284
+        },
+        {
+          "word": "its",
+          "index": 28,
+          "visitOrder": 288
+        },
+        {
+          "word": "hunkers",
+          "index": 32,
+          "visitOrder": 289
+        }
+      ],
+      "line": "__________ the dog ________ its hunkers ",
+      "page": 4,
+      "length": 39
+    },
+    "4.20": {
+      "words": [
+        {
+          "word": "to",
+          "index": 35,
+          "visitOrder": 290
+        }
+      ],
+      "line": "__________________________________ to ",
+      "page": 4,
+      "length": 37
+    },
+    "4.21": {
+      "words": [
+        {
+          "word": "its",
+          "index": 0,
+          "visitOrder": 291
+        },
+        {
+          "word": "black",
+          "index": 4,
+          "visitOrder": 292
+        },
+        {
+          "word": "and",
+          "index": 10,
+          "visitOrder": 293
+        },
+        {
+          "word": "pink",
+          "index": 14,
+          "visitOrder": 294
+        },
+        {
+          "word": "penis",
+          "index": 19,
+          "visitOrder": 295
+        },
+        {
+          "word": "too",
+          "index": 25,
+          "visitOrder": 296
+        },
+        {
+          "word": "tired",
+          "index": 29,
+          "visitOrder": 297
+        },
+        {
+          "word": "to",
+          "index": 35,
+          "visitOrder": 298
+        }
+      ],
+      "line": "its black and pink penis too tired to ",
+      "page": 4,
+      "length": 37
+    },
+    "5.0": {
+      "words": [
+        {
+          "word": "lick",
+          "index": 0,
+          "visitOrder": 299
+        }
+      ],
+      "line": "lick _________________________________",
+      "page": 5,
+      "length": 38
+    },
+    "5.1": {
+      "words": [
+        {
+          "word": "turn",
+          "index": 0,
+          "visitOrder": 300
+        },
+        {
+          "word": "introrse",
+          "index": 5,
+          "visitOrder": 301
+        },
+        {
+          "word": "fleeting",
+          "index": 14,
+          "visitOrder": 302
+        },
+        {
+          "word": "face",
+          "index": 23,
+          "visitOrder": 303
+        },
+        {
+          "word": "to",
+          "index": 28,
+          "visitOrder": 304
+        },
+        {
+          "word": "face",
+          "index": 31,
+          "visitOrder": 305
+        }
+      ],
+      "line": "turn introrse fleeting face to face ",
+      "page": 5,
+      "length": 35
+    },
+    "5.2": {
+      "words": [
+        {
+          "word": "arms",
+          "index": 31,
+          "visitOrder": 306
+        }
+      ],
+      "line": "______________________________ arms ",
+      "page": 5,
+      "length": 35
+    },
+    "5.3": {
+      "words": [
+        {
+          "word": "silent",
+          "index": 0,
+          "visitOrder": 307
+        },
+        {
+          "word": "relishing",
+          "index": 7,
+          "visitOrder": 308
+        },
+        {
+          "word": "of",
+          "index": 17,
+          "visitOrder": 309
+        },
+        {
+          "word": "sea",
+          "index": 20,
+          "visitOrder": 311
+        }
+      ],
+      "line": "silent relishing of sea _______________",
+      "page": 5,
+      "length": 39
+    },
+    "5.4": {
+      "words": [
+        {
+          "word": "the",
+          "index": 19,
+          "visitOrder": 310
+        },
+        {
+          "word": "city",
+          "index": 23,
+          "visitOrder": 312
+        },
+        {
+          "word": "fumes",
+          "index": 28,
+          "visitOrder": 313
+        },
+        {
+          "word": "silent",
+          "index": 34,
+          "visitOrder": 314
+        }
+      ],
+      "line": "__________________ the city fumes silent ",
+      "page": 5,
+      "length": 40
+    },
+    "5.5": {
+      "words": [
+        {
+          "word": "location",
+          "index": 0,
+          "visitOrder": 315
+        },
+        {
+          "word": "of",
+          "index": 9,
+          "visitOrder": 316
+        }
+      ],
+      "line": "location of _________________________",
+      "page": 5,
+      "length": 37
+    },
+    "5.6": {
+      "words": [
+        {
+          "word": "as",
+          "index": 11,
+          "visitOrder": 317
+        }
+      ],
+      "line": "__________ as _________________",
+      "page": 5,
+      "length": 31
+    },
+    "5.7": {
+      "words": [
+        {
+          "word": "are",
+          "index": 12,
+          "visitOrder": 318
+        }
+      ],
+      "line": "___________ are _________________",
+      "page": 5,
+      "length": 33
+    },
+    "5.8": {
+      "words": [
+        {
+          "word": "bites",
+          "index": 10,
+          "visitOrder": 319
+        },
+        {
+          "word": "I",
+          "index": 16,
+          "visitOrder": 320
+        },
+        {
+          "word": "mine",
+          "index": 18,
+          "visitOrder": 321
+        },
+        {
+          "word": "she",
+          "index": 23,
+          "visitOrder": 322
+        },
+        {
+          "word": "hers",
+          "index": 27,
+          "visitOrder": 323
+        },
+        {
+          "word": "and",
+          "index": 32,
+          "visitOrder": 324
+        }
+      ],
+      "line": "_________ bites I mine she hers and ",
+      "page": 5,
+      "length": 35
+    },
+    "5.9": {
+      "words": [
+        {
+          "word": "exchanging",
+          "index": 0,
+          "visitOrder": 325
+        }
+      ],
+      "line": "exchanging ___________________________",
+      "page": 5,
+      "length": 38
+    },
+    "5.10": {
+      "words": [
+        {
+          "word": "swallows",
+          "index": 9,
+          "visitOrder": 326
+        },
+        {
+          "word": "my",
+          "index": 18,
+          "visitOrder": 327
+        },
+        {
+          "word": "sweet",
+          "index": 21,
+          "visitOrder": 328
+        },
+        {
+          "word": "she",
+          "index": 31,
+          "visitOrder": 331
+        }
+      ],
+      "line": "________ swallows my sweet ___ she _____",
+      "page": 5,
+      "length": 40
+    },
+    "5.11": {
+      "words": [
+        {
+          "word": "coo",
+          "index": 23,
+          "visitOrder": 329
+        },
+        {
+          "word": "with",
+          "index": 27,
+          "visitOrder": 330
+        },
+        {
+          "word": "our",
+          "index": 32,
+          "visitOrder": 332
+        }
+      ],
+      "line": "______________________ coo with our ",
+      "page": 5,
+      "length": 35
+    },
+    "5.12": {
+      "words": [
+        {
+          "word": "bills",
+          "index": 0,
+          "visitOrder": 333
+        },
+        {
+          "word": "full",
+          "index": 6,
+          "visitOrder": 334
+        }
+      ],
+      "line": "bills full ",
+      "page": 5,
+      "length": 10
+    },
+    "5.13": {
+      "words": [
+        {
+          "word": "my",
+          "index": 0,
+          "visitOrder": 335
+        }
+      ],
+      "line": "my ___________________________________",
+      "page": 5,
+      "length": 38
+    },
+    "5.14": {
+      "words": [
+        {
+          "word": "darling",
+          "index": 0,
+          "visitOrder": 336
+        }
+      ],
+      "line": "darling _____________________________",
+      "page": 5,
+      "length": 37
+    },
+    "5.15": {
+      "words": [
+        {
+          "word": "and",
+          "index": 6,
+          "visitOrder": 337
+        },
+        {
+          "word": "there",
+          "index": 10,
+          "visitOrder": 338
+        },
+        {
+          "word": "we",
+          "index": 16,
+          "visitOrder": 339
+        },
+        {
+          "word": "are",
+          "index": 19,
+          "visitOrder": 340
+        },
+        {
+          "word": "again",
+          "index": 23,
+          "visitOrder": 341
+        },
+        {
+          "word": "dwindling",
+          "index": 29,
+          "visitOrder": 342
+        }
+      ],
+      "line": "_____ and there we are again dwindling ",
+      "page": 5,
+      "length": 38
+    },
+    "5.16": {
+      "words": [
+        {
+          "word": "again",
+          "index": 0,
+          "visitOrder": 343
+        },
+        {
+          "word": "across",
+          "index": 6,
+          "visitOrder": 344
+        },
+        {
+          "word": "the",
+          "index": 13,
+          "visitOrder": 345
+        }
+      ],
+      "line": "again across the _____________________",
+      "page": 5,
+      "length": 38
+    },
+    "5.17": {
+      "words": [
+        {
+          "word": "heads",
+          "index": 14,
+          "visitOrder": 346
+        }
+      ],
+      "line": "_____________ heads ________________",
+      "page": 5,
+      "length": 36
+    },
+    "5.18": {
+      "words": [
+        {
+          "word": "and",
+          "index": 16,
+          "visitOrder": 347
+        }
+      ],
+      "line": "_______________ and ____________________",
+      "page": 5,
+      "length": 40
+    },
+    "5.19": {
+      "words": [
+        {
+          "word": "us",
+          "index": 19,
+          "visitOrder": 348
+        },
+        {
+          "word": "the",
+          "index": 22,
+          "visitOrder": 349
+        },
+        {
+          "word": "scene",
+          "index": 26,
+          "visitOrder": 350
+        },
+        {
+          "word": "is",
+          "index": 32,
+          "visitOrder": 351
+        },
+        {
+          "word": "shut",
+          "index": 35,
+          "visitOrder": 352
+        }
+      ],
+      "line": "__________________ us the scene is shut ",
+      "page": 5,
+      "length": 39
+    },
+    "5.20": {
+      "words": [
+        {
+          "word": "of",
+          "index": 0,
+          "visitOrder": 353
+        },
+        {
+          "word": "us",
+          "index": 3,
+          "visitOrder": 354
+        },
+        {
+          "word": "us",
+          "index": 3,
+          "visitOrder": 356
+        }
+      ],
+      "line": "of us ",
+      "page": 5,
+      "length": 5
+    },
+    "5.21": {
+      "words": [
+        {
+          "word": "animals",
+          "index": 5,
+          "visitOrder": 355
+        },
+        {
+          "word": "animals",
+          "index": 5,
+          "visitOrder": 357
+        },
+        {
+          "word": "still",
+          "index": 13,
+          "visitOrder": 358
+        },
+        {
+          "word": "the",
+          "index": 19,
+          "visitOrder": 359
+        },
+        {
+          "word": "sheep",
+          "index": 23,
+          "visitOrder": 360
+        },
+        {
+          "word": "like",
+          "index": 29,
+          "visitOrder": 361
+        }
+      ],
+      "line": "____ animals still the sheep like ",
+      "page": 5,
+      "length": 33
+    },
+    "6.0": {
+      "words": [
+        {
+          "word": "granite",
+          "index": 0,
+          "visitOrder": 362
+        },
+        {
+          "word": "outcrops",
+          "index": 8,
+          "visitOrder": 363
+        },
+        {
+          "word": "a",
+          "index": 17,
+          "visitOrder": 364
+        },
+        {
+          "word": "horse",
+          "index": 19,
+          "visitOrder": 365
+        },
+        {
+          "word": "seen",
+          "index": 34,
+          "visitOrder": 369
+        }
+      ],
+      "line": "granite outcrops a horse ________ seen ",
+      "page": 6,
+      "length": 38
+    },
+    "6.1": {
+      "words": [
+        {
+          "word": "back",
+          "index": 20,
+          "visitOrder": 366
+        },
+        {
+          "word": "bent",
+          "index": 25,
+          "visitOrder": 367
+        },
+        {
+          "word": "head",
+          "index": 30,
+          "visitOrder": 368
+        },
+        {
+          "word": "standing",
+          "index": 0,
+          "visitOrder": 370
+        },
+        {
+          "word": "motionless",
+          "index": 9,
+          "visitOrder": 371
+        },
+        {
+          "word": "back",
+          "index": 20,
+          "visitOrder": 372
+        },
+        {
+          "word": "bent",
+          "index": 25,
+          "visitOrder": 373
+        },
+        {
+          "word": "head",
+          "index": 30,
+          "visitOrder": 374
+        },
+        {
+          "word": "sunk",
+          "index": 35,
+          "visitOrder": 375
+        }
+      ],
+      "line": "standing motionless back bent head sunk ",
+      "page": 6,
+      "length": 39
+    },
+    "6.2": {
+      "words": [
+        {
+          "word": "animals",
+          "index": 0,
+          "visitOrder": 376
+        }
+      ],
+      "line": "animals ____",
+      "page": 6,
+      "length": 12
+    },
+    "6.3": {
+      "words": [
+        {
+          "word": "and",
+          "index": 5,
+          "visitOrder": 377
+        },
+        {
+          "word": "white",
+          "index": 9,
+          "visitOrder": 378
+        }
+      ],
+      "line": "____ and white _____________________",
+      "page": 6,
+      "length": 36
+    },
+    "6.4": {
+      "words": [
+        {
+          "word": "in",
+          "index": 14,
+          "visitOrder": 379
+        }
+      ],
+      "line": "_____________ in ______________________",
+      "page": 6,
+      "length": 39
+    },
+    "6.5": {
+      "words": [
+        {
+          "word": "the",
+          "index": 14,
+          "visitOrder": 380
+        },
+        {
+          "word": "image",
+          "index": 18,
+          "visitOrder": 382
+        },
+        {
+          "word": "the",
+          "index": 24,
+          "visitOrder": 383
+        },
+        {
+          "word": "is",
+          "index": 34,
+          "visitOrder": 386
+        },
+        {
+          "word": "is",
+          "index": 34,
+          "visitOrder": 388
+        }
+      ],
+      "line": "_____________ the image the _____ is ",
+      "page": 6,
+      "length": 36
+    },
+    "6.6": {
+      "words": [
+        {
+          "word": "animals",
+          "index": 12,
+          "visitOrder": 381
+        },
+        {
+          "word": "then",
+          "index": 26,
+          "visitOrder": 384
+        },
+        {
+          "word": "goes",
+          "index": 31,
+          "visitOrder": 385
+        },
+        {
+          "word": "out",
+          "index": 36,
+          "visitOrder": 387
+        },
+        {
+          "word": "out",
+          "index": 36,
+          "visitOrder": 389
+        }
+      ],
+      "line": "___________ animals _____ then goes out ",
+      "page": 6,
+      "length": 39
+    },
+    "6.7": {
+      "words": [
+        {
+          "word": "no",
+          "index": 0,
+          "visitOrder": 390
+        }
+      ],
+      "line": "no ______________________",
+      "page": 6,
+      "length": 25
+    },
+    "6.8": {
+      "words": [
+        {
+          "word": "way",
+          "index": 0,
+          "visitOrder": 391
+        }
+      ],
+      "line": "way ____________________________________",
+      "page": 6,
+      "length": 40
+    },
+    "6.9": {
+      "words": [
+        {
+          "word": "opens",
+          "index": 0,
+          "visitOrder": 392
+        },
+        {
+          "word": "and",
+          "index": 6,
+          "visitOrder": 393
+        }
+      ],
+      "line": "opens and _________________________",
+      "page": 6,
+      "length": 35
+    },
+    "6.10": {
+      "words": [
+        {
+          "word": "let",
+          "index": 6,
+          "visitOrder": 394
+        },
+        {
+          "word": "it",
+          "index": 10,
+          "visitOrder": 395
+        },
+        {
+          "word": "go",
+          "index": 13,
+          "visitOrder": 396
+        },
+        {
+          "word": "I",
+          "index": 16,
+          "visitOrder": 397
+        }
+      ],
+      "line": "_____ let it go I _________________",
+      "page": 6,
+      "length": 35
+    },
+    "6.11": {
+      "words": [
+        {
+          "word": "no",
+          "index": 16,
+          "visitOrder": 398
+        }
+      ],
+      "line": "_______________ no _________________",
+      "page": 6,
+      "length": 36
+    },
+    "6.12": {
+      "words": [
+        {
+          "word": "long",
+          "index": 16,
+          "visitOrder": 399
+        },
+        {
+          "word": "time",
+          "index": 21,
+          "visitOrder": 400
+        },
+        {
+          "word": "now",
+          "index": 26,
+          "visitOrder": 401
+        }
+      ],
+      "line": "_______________ long time now ",
+      "page": 6,
+      "length": 29
+    },
+    "6.13": {
+      "words": [
+        {
+          "word": "my",
+          "index": 0,
+          "visitOrder": 402
+        },
+        {
+          "word": "tongue",
+          "index": 3,
+          "visitOrder": 403
+        }
+      ],
+      "line": "my tongue ____________________________",
+      "page": 6,
+      "length": 38
+    },
+    "6.14": {
+      "words": [
+        {
+          "word": "stay",
+          "index": 6,
+          "visitOrder": 404
+        },
+        {
+          "word": "there",
+          "index": 11,
+          "visitOrder": 405
+        },
+        {
+          "word": "more",
+          "index": 20,
+          "visitOrder": 408
+        }
+      ],
+      "line": "_____ stay there __ more __________",
+      "page": 6,
+      "length": 35
+    },
+    "6.15": {
+      "words": [
+        {
+          "word": "the",
+          "index": 15,
+          "visitOrder": 406
+        },
+        {
+          "word": "mouth",
+          "index": 19,
+          "visitOrder": 407
+        },
+        {
+          "word": "mouth",
+          "index": 19,
+          "visitOrder": 409
+        },
+        {
+          "word": "closes",
+          "index": 25,
+          "visitOrder": 410
+        },
+        {
+          "word": "it",
+          "index": 32,
+          "visitOrder": 411
+        }
+      ],
+      "line": "______________ the mouth closes it ____",
+      "page": 6,
+      "length": 39
+    },
+    "6.16": {
+      "words": [
+        {
+          "word": "it’s",
+          "index": 33,
+          "visitOrder": 412
+        },
+        {
+          "word": "line",
+          "index": 14,
+          "visitOrder": 417
+        },
+        {
+          "word": "now",
+          "index": 19,
+          "visitOrder": 418
+        }
+      ],
+      "line": "_____________ line now _________ it’s ",
+      "page": 6,
+      "length": 37
+    },
+    "6.17": {
+      "words": [
+        {
+          "word": "done",
+          "index": 0,
+          "visitOrder": 413
+        },
+        {
+          "word": "I’ve",
+          "index": 5,
+          "visitOrder": 414
+        },
+        {
+          "word": "had",
+          "index": 10,
+          "visitOrder": 415
+        },
+        {
+          "word": "the",
+          "index": 14,
+          "visitOrder": 416
+        },
+        {
+          "word": "image",
+          "index": 18,
+          "visitOrder": 419
+        }
+      ],
+      "line": "done I’ve had the image ",
+      "page": 6,
+      "length": 23
+    }
+  },
+  "grids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    0
+  ],
+  "reader": "PerigramReader",
+  "layout": [
+    "the tongue gets clogged _____________",
+    "___________________ one remedy then pull ",
+    "_________________________________ or ",
+    "_________________________________ and ",
+    "question is it ______________ vistas ",
+    "_____________ with that ",
+    "I _____________________________________",
+    "too ___________________________________",
+    "moment with ____________________",
+    "_________ would ______________________",
+    "____________ they are ____________",
+    "___________________ tongue _________",
+    "________________________ at all this ",
+    "_____________ always _______ see what ",
+    "the hands are up __ well the left as we ",
+    "_________________________________ and ",
+    "the right ",
+    "the right ____________________________",
+    "___ others at the _____________________",
+    "______________ on ____________________",
+    "_______________ stretch ______ axis __",
+    "_____________________ as I hear it ",
+    "opening and closing __ the ___________",
+    "___ closing ____ another of my resources ",
+    "it helps me ",
+    "________ be ____________________________",
+    "__________ some _______________________",
+    "___________ its thumb something wrong ",
+    "there it __________________________",
+    "_____ my eyes _________________________",
+    "_________ its _________________________",
+    "____________ ends _____________________",
+    "______ horizontal hoists it moves ____",
+    "___________________________ piecemeal it ",
+    "helps me ",
+    "and the legs and the _____________",
+    "__________________ since ________",
+    "______________________ there in _______",
+    "___________________________ me ",
+    "I _______________________________ crown ",
+    "all glorious weather egg-blue sky and ",
+    "_______________________________ my back ",
+    "turned _____________ girl too whom I ",
+    "____ who holds me by the ________ arse I ",
+    "have ",
+    "__ are _________________________________",
+    "____ the ______________________________",
+    "_______ are old ____________________",
+    "______________ in April or __________",
+    "________________________ may believe ",
+    "them white rails ______________________",
+    "_______________ on a racecourse in April ",
+    "or in ___",
+    "heads ________________________________",
+    "imagine our ____________________________",
+    "________ statues save only the swinging ",
+    "arms ________________________ what else ",
+    "__ my ________________________________",
+    "object and _____________________________",
+    "_________ of ________________________",
+    "_________ ash-grey dog of _________",
+    "________________________ head sunk ",
+    "stillness of ___________",
+    "________ why _________________________",
+    "__________ and emergence little by ",
+    "little of __________________________",
+    "______ by little _____________________",
+    "______________ bulk closing the _____",
+    "___________________________ mountain __",
+    "__________________________________ the ",
+    "crest ",
+    "__ let go our ______________________",
+    "__________ she ______________________",
+    "____________ her ___________________",
+    "_______________ my ____________________",
+    "_____________ grey brick the empty _____",
+    "_________________________________ not ",
+    "moved I have the impression we are ",
+    "looking at ____________________________",
+    "________ and _____",
+    "_________ face the girl _______________",
+    "______________________ concerned me ____",
+    "_____________________________ with ",
+    "_______________________________ fly ",
+    "spindle legs sagging knocking at the ",
+    "knees wide astraddle for greater ",
+    "stability feet splayed one hundred and ",
+    "thirty degrees fatuous half-smile to ",
+    "posterior ____________________________",
+    "____ green tweeds yellow boots _________",
+    "___________________________ in the ",
+    "buttonhole ",
+    "again about turn introrse at ninety ",
+    "degrees fleeting face to face transfer ",
+    "of ____________________________________",
+    "arms ________________________________",
+    "suddenly ______________________________",
+    "_______ swinging the dog ____________",
+    "_____________________ reference to _____",
+    "_______________________________ instant ",
+    "___________ less ____________ the ",
+    "humanities I had if ___________________",
+    "_________________ stopping I shout __",
+    "_________________________________ your ",
+    "throat ",
+    "_____ black ___ there we are ________",
+    "__________ the dog ________ its hunkers ",
+    "__________________________________ to ",
+    "its black and pink penis too tired to ",
+    "lick _________________________________",
+    "turn introrse fleeting face to face ",
+    "______________________________ arms ",
+    "silent relishing of sea _______________",
+    "__________________ the city fumes silent ",
+    "location of _________________________",
+    "__________ as _________________",
+    "___________ are _________________",
+    "_________ bites I mine she hers and ",
+    "exchanging ___________________________",
+    "________ swallows my sweet ___ she _____",
+    "______________________ coo with our ",
+    "bills full ",
+    "my ___________________________________",
+    "darling _____________________________",
+    "_____ and there we are again dwindling ",
+    "again across the _____________________",
+    "_____________ heads ________________",
+    "_______________ and ____________________",
+    "__________________ us the scene is shut ",
+    "of us ",
+    "____ animals still the sheep like ",
+    "granite outcrops a horse ________ seen ",
+    "standing motionless back bent head sunk ",
+    "animals ____",
+    "____ and white _____________________",
+    "_____________ in ______________________",
+    "_____________ the image the _____ is ",
+    "___________ animals _____ then goes out ",
+    "no ______________________",
+    "way ____________________________________",
+    "opens and _________________________",
+    "_____ let it go I _________________",
+    "_______________ no _________________",
+    "_______________ long time now ",
+    "my tongue ____________________________",
+    "_____ stay there __ more __________",
+    "______________ the mouth closes it ____",
+    "_____________ line now _________ it’s ",
+    "done I’ve had the image "
+  ],
+  "timestamp": 1770575451698
+}

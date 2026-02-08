@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compressure</title>
+
+  <!-- Load the external data files, with 3 arrays of same length: fills, lines, and layout -->
+  <script src="data/compression/PerigramReader.1770546914199-layout.js"></script>
+  <script src="data/compression/theImage-lines.js"></script>
+  <script src="data/completions/Feb8.12pm.js"></script>
+
+  <style>
+    :root {
+      --bg-color: #f4f4f9;
+      --paper-color: #ffffff;
+      --text-color: #333333;
+      --underscore-color: #999999;
+      --hover-color: #0056b3;
+    }
+
+    body {
+      font-family: sans-serif;
+      background-color: var(--bg-color);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: flex-start;
+      /* Changed from space-between */
+      align-items: center;
+      gap: 20px;
+      /* Adds space between the title, input, and button */
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    #fileInput {
+      color: white;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    #content-area {
+      background: var(--paper-color);
+      width: 100%;
+      max-width: 900px;
+      padding: 50px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 2px;
+      min-height: 90vh;
+    }
+
+    .line {
+      display: block;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 18px;
+      white-space: pre-wrap;
+      line-height: 1.6;
+      color: var(--text-color);
+      margin: 0;
+      padding: 2px 5px;
+      text-align: left;
+      transition: background-color 0.2s;
+      border-radius: 3px;
+    }
+
+    .line:hover {
+      background-color: #f0f7ff;
+      color: var(--hover-color);
+      cursor: pointer;
+    }
+
+    .line.wrong:hover {
+      background-color: #f0aaaa;
+      color: var(--hover-color);
+      cursor: pointer;
+    }
+
+    .placeholder {
+      text-align: center;
+      color: #888;
+      margin-top: 100px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <!-- <input type="file" id="fileInput" accept=".json"> -->
+    <button id="toggleBtn" style="cursor:pointer; padding: 2px 2px;">Invert</button>
+  </header>
+
+  <main>
+    <div id="content-area">
+      <div class="placeholder">Select a .json file or wait for default data</div>
+    </div>
+  </main>
+
+  <script>
+    const fileInput = document.getElementById('fileInput');
+    const container = document.getElementById('content-area');
+
+    let isReversed = false;
+
+    document.getElementById('toggleBtn').addEventListener('click', () => {
+      isReversed = !isReversed;
+      // Re-render based on current data
+      if (typeof data !== 'undefined') renderLines(data);
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      // Check if 'data' (from default-data.js) exists
+      if (typeof data !== 'undefined') {
+        renderLines(data);
+      }
+    });
+
+    fileInput.addEventListener('change', function (e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function (event) {
+        try {
+          const jsonData = JSON.parse(event.target.result);
+          renderLines(jsonData);
+        } catch (err) {
+          alert("JSON Error: " + err.message);
+        }
+      };
+      reader.readAsText(file);
+    });
+
+    function renderLines(jsonData) {
+      container.innerHTML = '';
+
+      // Sort lines to ensure they match the index of the 'fills' array
+      const sortedLines = Object.values(jsonData.lines).sort((a, b) => {
+        if (a.page !== b.page) return a.page - b.page;
+        return a.y - b.y;
+      });
+
+      if (fills.length !== sortedLines.length) throw Error('bad fills');
+
+      sortedLines.forEach((lineObj, index) => {
+        const lineDiv = document.createElement('div');
+        lineDiv.className = 'line';
+
+        const fragmentedText = processText(lineObj.line).trim();
+        const filledText = (typeof fills !== 'undefined' && fills[index]) ? fills[index].trim() : fragmentedText;
+
+        // Set initial text based on toggle state
+        lineDiv.innerText = isReversed ? filledText : fragmentedText;
+
+        //console.log(index, fragmentedText, filledText);
+
+        // first remove existing wrong class
+        lineDiv.classList.remove('wrong');
+        if (fragmentedText.length !== filledText.length) {
+          console.log(index, fragmentedText, fragmentedText.length, filledText, filledText.length);
+          lineDiv.classList.add('wrong');
+        }
+
+        lineDiv.addEventListener('mouseenter', () => {
+          lineDiv.innerText = isReversed ? fragmentedText : filledText;
+        });
+
+        lineDiv.addEventListener('mouseleave', () => {
+          lineDiv.innerText = isReversed ? filledText : fragmentedText;
+        });
+
+        container.appendChild(lineDiv);
+      });
+    }
+
+    function processText(text) {
+      // Replaces underscores with dashes for the "masked" view
+      return text.replaceAll(/_/g, '-');
+    }
+  </script>
+
+</body>
+
+</html>
